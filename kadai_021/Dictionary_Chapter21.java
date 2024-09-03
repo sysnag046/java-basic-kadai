@@ -16,17 +16,20 @@ public class Dictionary_Chapter21 {
 		fruitDic.put("grape","ぶどう");
 		fruitDic.put("muscat","マスカット");
 		fruitDic.put("cherry","さくらんぼ");
-
 	}
 	
-	public String sarchKey(String Key) {
-		String message;
+	public void sarchKey(String[] Keywords) {
 		
-		if (this.fruitDic.containsKey(Key)) {
-			message = Key+"の意味は"+fruitDic.get(Key);
-		}else {
-			message =  Key+"は辞書に存在しません";
+		for(String key :Keywords) {
+			
+			String message;
+			if (this.fruitDic.containsKey(key)) {
+				message = key+"の意味は"+fruitDic.get(key);
+			}else {
+				message =  key+"は辞書に存在しません";
+			}
+			System.out.println(message);
 		}
-		return message;
+		
 	}
 }

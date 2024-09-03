@@ -7,8 +7,7 @@ public class DictionaryExec_Chapter21 {
 		
 		//KeyWordを配列で格納して、１要素ずつループ
 		String[] keywords = {"apple","banana","grape","orange"};
-		for(String keyword:keywords) {
-			System.out.println(fruitDic.sarchKey(keyword));
-		}
+		fruitDic.sarchKey(keywords);
 	}
 }
+
