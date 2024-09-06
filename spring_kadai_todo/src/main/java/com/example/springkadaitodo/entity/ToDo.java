@@ -1,4 +1,4 @@
-package com.example.springtutorial.entity;
+package com.example.springkadaitodo.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

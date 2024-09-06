@@ -1,4 +1,4 @@
-package com.example.springtutorial;
+package com.example.springkadaitodo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

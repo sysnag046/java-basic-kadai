@@ -1,4 +1,4 @@
-package com.example.springtutorial.controller;
+package com.example.springkadaitodo.controller;
 
 import java.util.List;
 
@@ -6,8 +6,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
-import com.example.springtutorial.entity.ToDo;
-import com.example.springtutorial.service.ToDoService;
+import com.example.springkadaitodo.entity.ToDo;
+import com.example.springkadaitodo.service.ToDoService;
 
 @Controller
 public class ToDoController {
@@ -27,6 +27,6 @@ public class ToDoController {
      // ビューにユーザーリストを渡す
         model.addAttribute("ToDo", ToDo);
         
-		return "todo.html";
+		return "todoView.html";
 	}
 }

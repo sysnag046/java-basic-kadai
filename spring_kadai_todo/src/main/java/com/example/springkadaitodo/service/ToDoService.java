@@ -1,11 +1,11 @@
-package com.example.springtutorial.service;
+package com.example.springkadaitodo.service;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.example.springtutorial.entity.ToDo;
-import com.example.springtutorial.repository.ToDoRepository;
+import com.example.springkadaitodo.entity.ToDo;
+import com.example.springkadaitodo.repository.ToDoRepository;
 
 @Service
 public class ToDoService {
